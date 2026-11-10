@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">DocuSnap</string>
+    <string name="app_tagline">Local-First Smart Document Scanner</string>
+    <string name="creator_attribution">Developed by Tahsin Islam</string>
+    <string name="creator_name">Tahsin Islam</string>
+    <string name="creator_role">Creator &amp; Lead Developer</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_library">Library</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Primary Actions -->
+    <string name="action_scan_document">Scan Document</string>
+    <string name="action_scan_document_desc">Auto-detect edges, straighten &amp; enhance</string>
+    <string name="action_take_photo">Take Photo</string>
+    <string name="action_take_photo_desc">Preserve natural colors without auto-crop</string>
+    <string name="action_import_gallery">Import from Gallery</string>
+    <string name="action_import_gallery_desc">Import one or multiple images as pages</string>
+
+    <!-- Home & Library -->
+    <string name="section_recent_documents">Recent Documents</string>
+    <string name="section_folders">Folders &amp; Categories</string>
+    <string name="folder_all">All Documents</string>
+    <string name="action_new_folder">New Folder</string>
+    <string name="search_placeholder">Search by title, notes, or OCR text…</string>
+    <string name="empty_library_title">No Scanned Documents Yet</string>
+    <string name="empty_library_subtitle">Scan paper contracts, receipts, notes, or photos. Everything stays privately on your device.</string>
+    <string name="view_all">View All</string>
+
+    <!-- Camera -->
+    <string name="camera_permission_title">Camera Access Needed</string>
+    <string name="camera_permission_message">DocuSnap uses your camera locally to detect document edges and capture crisp high-resolution scans. Images never leave your device unless you share them.</string>
+    <string name="camera_grant_permission">Allow Camera Access</string>
+    <string name="camera_unavailable_title">Camera Unavailable</string>
+    <string name="camera_unavailable_message">No accessible camera hardware was found on this device, or it is currently in use. You can still import images from your Gallery.</string>
+    <string name="camera_status_searching">Position paper inside view…</string>
+    <string name="camera_status_detected">Document detected — hold steady</string>
+    <string name="camera_status_ready">Ready! Capturing crisp scan…</string>
+    <string name="camera_status_photo_mode">Photo Mode — Original Colors Preserved</string>
+    <string name="camera_auto_capture">Auto</string>
+    <string name="camera_manual_capture">Manual</string>
+    <string name="camera_switch_lens">Switch Camera</string>
+    <string name="camera_toggle_flash">Toggle Flashlight</string>
+    <string name="camera_retake">Retake</string>
+    <string name="camera_use_scan">Use Scan</string>
+    <string name="camera_cancel">Cancel</string>
+
+    <!-- Editor & Crop -->
+    <string name="editor_crop_title">Crop &amp; Perspective</string>
+    <string name="editor_filters_title">Filters &amp; Adjust</string>
+    <string name="editor_pages_title">Pages</string>
+    <string name="editor_ocr_title">OCR Text</string>
+    <string name="editor_export_title">Preview &amp; Export</string>
+    <string name="crop_reset">Full Page</string>
+    <string name="crop_auto_detect">Auto Detect</string>
+    <string name="crop_rotate_left">Rotate Left</string>
+    <string name="crop_rotate_right">Rotate Right</string>
+    <string name="crop_confirm">Apply Crop</string>
+    <string name="crop_no_boundary_notice">No clear paper boundary was automatically detected. Adjust the four corners manually or keep the full image.</string>
+    <string name="compare_before_after">Compare Original</string>
+
+    <!-- Export -->
+    <string name="export_pdf">Export PDF</string>
+    <string name="export_jpg">Export JPG</string>
+    <string name="export_png">Export PNG</string>
+    <string name="export_save_device">Save to Device</string>
+    <string name="export_share">Share</string>
+    <string name="save_to_library">Save Document</string>
+
+    <!-- OCR -->
+    <string name="ocr_optional_banner">Optional On-Device OCR. Extracts text locally without modifying your original scan. Bangla recognition downloads ~2.6 MB of offline language data once.</string>
+    <string name="ocr_extract_page">Extract Current Page</string>
+    <string name="ocr_extract_all">Extract All Pages</string>
+    <string name="ocr_copy_text">Copy Text</string>
+    <string name="ocr_download_txt">Save TXT</string>
+
+    <!-- Dialogs -->
+    <string name="unsaved_changes_title">Discard Unsaved Changes?</string>
+    <string name="unsaved_changes_message">You have unsaved edits in your current scan session. Leaving now will discard these changes.</string>
+    <string name="action_discard">Discard</string>
+    <string name="action_keep_editing">Keep Editing</string>
+    <string name="delete_confirm_title">Delete Permanently?</string>
+    <string name="action_delete">Delete</string>
+</resources>
